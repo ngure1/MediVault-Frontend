@@ -25,6 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+input{
+  @apply px-3 py-2 rounded-[8px] text-black
+}
 
 @layer utilities {
   .text-balance {
